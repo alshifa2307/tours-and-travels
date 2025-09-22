@@ -1,0 +1,284 @@
+.nav-link {
+  color: rgb(0, 0, 0);
+  font-family: cursive
+}
+
+.nav-link:hover {
+  color: rgb(224, 138, 138);
+}
+
+.home {
+  color: rgb(255, 0, 0);
+}
+
+.navbar {
+  background: transparent;
+}
+
+.bg-image {
+  background: url("./backimg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.t {
+  font-size: 50px;
+  margin-top: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.t1 {
+  font-size: 65px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.t2 {
+  font-size: 76px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cards {
+  margin-top: 130px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100% 100%;
+  width: 40px;
+  height: 40px;
+  background-image: none !important;
+}
+
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5 0L0 4l5 4V0z'/%3E%3C/svg%3E") !important;
+}
+
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M3 0l5 4-5 4V0z'/%3E%3C/svg%3E") !important;
+}
+
+#multiCardCarousel .card-img-top {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+#hotelCardCarousel .card-img-top {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.card {
+  height: 650px;
+}
+
+.bg-image1 {
+  background: url('./aboutbg.jpg') center/cover no-repeat;
+}
+
+.banner {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: -70px;
+}
+
+.banner-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+
+}
+
+.counter {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00ffe1;
+}
+
+.team img {
+  border-radius: 50%;
+  border: 4px solid #007bff;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img {
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.text1 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.img-fluid {
+  height: 500px;
+  width: 600px;
+}
+
+.moments {
+  background-color: rgb(230, 201, 217);
+}
+
+.package-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: 750px;
+}
+
+.package-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.package-img {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.package-details {
+  padding: 15px;
+}
+
+.package-details h5 {
+  color: #007bff;
+}
+
+.bg-image2 {
+  background: url('./destinationbg.jpg') center/cover no-repeat;
+}
+
+.name {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+strong {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.bg-image3 {
+  background: url('./hotelbg.jpg') center/cover no-repeat;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.btn-book {
+  background-color: #ff5722;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-book:hover {
+  background-color: #e64a19;
+  color: #fff;
+}
+
+.section-title {
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: #007bff;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.search-box {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.search-box select,
+.search-box input {
+  border-radius: 10px;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.flight-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.flight-card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-book {
+  background: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+.btn-book:hover {
+  background: #e64a19;
+  color: #fff;
+}
+
+.bg-image4 {
+  background: url('./flightbg.jpg') center/cover no-repeat;
+}
+
+.gradient-custom-2 {
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+.main{
+  height: 648px !important;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+}
